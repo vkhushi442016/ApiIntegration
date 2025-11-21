@@ -1,0 +1,41 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  height: 550px;
+  width: 500px;
+}
+
+#dt {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+h1{
+  text-align: center;
+}
+.click{
+  display: flex;
+  align-items: center;
+}
+.click h2{
+  width: 16rem;
+  margin: 20px;
+  color: rgb(13, 119, 160);
+}
+
+#btn{
+  border-radius: 10px;
+  border: 1px solid rgb(13, 119, 160);;
+  background-color: rgb(13, 119, 160);
+  color: white;
+  cursor: pointer;
+  height: 40px;
+  width: 80px;
+}
